@@ -22,7 +22,7 @@ function Hero() {
                       </div>
 
                     <div>
-                    <img className="picture" src="/Ristorante.jpg" alt="fachada1"/>
+                    <img className="picture" src="/Ristorante.jpg" alt="fachada"/>
                 </div>
 
                 </div>
