@@ -1,0 +1,14 @@
+.principal {
+  background-color: #f0f0f0;  
+}
+
+button {
+  background-color: #e9e7e7;
+  color: #000000;
+  padding: 5px;
+}
+
+button:hover {
+  background-color:  #c2bfbf;
+  color: #0f0f0f;
+}
