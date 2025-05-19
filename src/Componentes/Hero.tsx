@@ -1,4 +1,5 @@
 import './Hero.css'
+import RistoranteImg from '../assets/Ristorante.jpg'
 
 function Hero() {
     return (
@@ -22,7 +23,7 @@ function Hero() {
                       </div>
 
                     <div>
-                    <img className="picture" src="/Ristorante.JPG" alt="restaurante"/>
+                    <img className="picture" src={RistoranteImg} alt="restaurante"/>
                 </div>
 
                 </div>
