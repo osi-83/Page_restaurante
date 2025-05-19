@@ -15,9 +15,9 @@ function Hero() {
                     
                       <div className="lead">
                       
-                        <h2 >Servindo massas à mais de 70 anos"</h2>
+                        <h2 >Servindo massas à mais de 70 anos...</h2>
                         <br />                   
-                        <h4>"Qualidade passada por gerações</h4>
+                        <h4>"Qualidade passada por gerações"</h4>
                       
                       </div>
 
