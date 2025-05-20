@@ -6,6 +6,14 @@ interface ItemMenuProps {
 
 }
 function Menu( {nomeEmpresa,listaMenu, textButton}: ItemMenuProps) {
+
+    const scrollToSection = (id: string) => {
+        const section = document.getElementById(id.toLowerCase());
+        if (section) {
+          section.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+
     return (
         <nav id="navbar" className="navbar navbar-expand-lg navbar principal fixed-top">
             <div className="container">
@@ -18,7 +26,10 @@ function Menu( {nomeEmpresa,listaMenu, textButton}: ItemMenuProps) {
                     <ul className="navbar-nav ms-auto">
                         {listaMenu.map((item) =>(
                             <li className="nav-item">
-                            <a className="nav-link" href="#">{item}</a>
+                            <a className="nav-link" href="#" onClick={(e) => { e.preventDefault(); scrollToSection(item); }}
+                                >
+                                    {item}
+                                    </a>
                         </li>
                         ))}
                     </ul>
