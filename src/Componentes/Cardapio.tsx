@@ -2,6 +2,8 @@ import Menu from './Menu';
 import Hero from './Hero';
 import Footer from './Footer';
 import Bebidas from './Bebidas';
+import Pastas from './Pastas';
+import './Cardapio.css';
 
 function Cardapio() {
     return (
@@ -14,8 +16,16 @@ function Cardapio() {
             <Hero 
             />
 
-            <Bebidas 
+            <div className="cardapio-sections">
+
+                <Bebidas 
             />
+
+                <Pastas 
+            />
+
+            </div>
+      
 
             <Footer 
             />
