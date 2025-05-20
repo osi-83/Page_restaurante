@@ -1,0 +1,11 @@
+.cardapio-sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.bebidas-section, .pastas-section, .gnocchi-section {
+    flex: 1 1 45%;
+}

@@ -1,0 +1,29 @@
+.pastas-section {
+  padding: 1rem;
+  background-color: #fefefe;
+  flex: 1 1 50%;
+}
+
+.pastas-section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.pastas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.card-pasta {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-pasta img {
+  max-width: 100%;
+  border-radius: 8px;
+}

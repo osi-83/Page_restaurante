@@ -1,0 +1,30 @@
+.bebidas-section {
+  padding: 1rem;
+  background-color: #fff9f0;
+  flex: 1 1 50%;
+}
+
+.bebidas-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #a52a2a;
+}
+
+.categoria {
+  margin-bottom: 1.5rem;
+}
+
+.categoria h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.categoria ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categoria li {
+  font-size: 1rem;
+  padding: 0.2rem 0;
+}
