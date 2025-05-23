@@ -6,6 +6,19 @@
   padding: 20px;
 }
 
+.bebidas-section, .pastas-section, .gnocchis-section {
+  flex: 1 1 30%;
+  max-width: 30%;
+  min-height: 500px;;
+}
+
+@media (max-width: 768px) {
+  .cardapio-sections {
+    flex-direction: column;
+}
+
 .bebidas-section, .pastas-section, .gnocchi-section {
-    flex: 1 1 45%;
+  flex: 1 1 100%;
+  max-width: 100%;
+  }
 }

@@ -5,14 +5,14 @@ interface ItemMenuProps {
     textButton: string
 
 }
-function Menu( {nomeEmpresa,listaMenu, textButton}: ItemMenuProps) {
+function Menu({ nomeEmpresa, listaMenu, textButton }: ItemMenuProps) {
 
     const scrollToSection = (id: string) => {
         const section = document.getElementById(id.toLowerCase());
         if (section) {
-          section.scrollIntoView({ behavior: 'smooth' });
+            section.scrollIntoView({ behavior: 'smooth' });
         }
-      };
+    };
 
     return (
         <nav id="navbar" className="navbar navbar-expand-lg navbar principal fixed-top">
@@ -24,19 +24,19 @@ function Menu( {nomeEmpresa,listaMenu, textButton}: ItemMenuProps) {
 
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
-                        {listaMenu.map((item) =>(
+                        {listaMenu.map((item) => (
                             <li className="nav-item">
-                            <a className="nav-link" href="#" onClick={(e) => { e.preventDefault(); scrollToSection(item); }}
+                                <a className="nav-link" href="#" onClick={(e) => { e.preventDefault(); scrollToSection(item); }}
                                 >
                                     {item}
-                                    </a>
-                        </li>
+                                </a>
+                            </li>
                         ))}
                     </ul>
 
-                <div>
-                <button>{textButton}</button>
-                </div>
+                    <div>
+                        <button className='btn-pedido'>{textButton}</button>
+                    </div>
 
                 </div>
             </div>

@@ -5,43 +5,43 @@ const pastas = [
     {
         nome: "Espaguete",
         preco: "R$ 28,00",
-        imagens: './Espaguetti.jpg',
+        imagem: './Espaguetti.jpg',
         molhos: ['Alla Putanesca', 'Al Pesto di Basilico', 'Cacio e Pepe', 'Alla Matriciana']
     },
     {
         nome: "Ravioli",
         preco: "R$ 28,00",
-        imagens: './Raviolli.jpg',
+        imagem: './Raviolli.jpg',
         molhos: ['Alla Putanesca', 'Al Pesto di Basilico', 'Cacio e Pepe', 'Alla Matriciana']
     },
     {
         nome: "Tagliatelle",
         preco: "R$ 30,00",
-        imagens: './Tagliatelle.jpg',
+        imagem: './Tagliatelle.jpg',
         molhos: ['Alla Putanesca', 'Alla Matriciana']
     },
     {
         nome: "Fettuccine",
         preco: "R$ 32,00",
-        imagens: './Fettuccine.jpg',
+        imagem: './Fettuccine.jpg',
         molhos: ['Alla Putanesca', 'Al Pesto di Basilico', 'Cacio e Pepe']
     },
     {
         nome: "Penne",
         preco: "R$ 26,00",
-        imagens: './Penne.jpg',
+        imagem: './Penne.jpg',
         molhos: ['Alla Putanesca', 'Cacio e Pepe']
     },
     {
         nome: "Rigatoni",
         preco: "R$ 28,00",
-        imagens: './Rigatoni.jpg',
+        imagem: './Rigatoni.jpg',
         molhos: ['Alla Matriciana']
     },
     {
         nome: "Pappardelle",
         preco: "R$ 34,00",
-        imagens: './Pappardelle.jpg',
+        imagem: './Pappardelle.jpg',
         molhos: ['Alla Putanesca', 'Alla Matriciana']
     }
 ];
@@ -53,7 +53,7 @@ function Pastas() {
             <div className="pastas-grid">
                 {pastas.map((pasta) => (
                     <div className="card-pasta" key={pasta.nome}>
-                        <img src={pasta.imagens} alt={pasta.nome}/>
+                        <img src={pasta.imagem} alt={pasta.nome}/>
                         
                         <h3>{pasta.nome}</h3>
                         <p>{pasta.preco}</p>

@@ -1,0 +1,36 @@
+.gnocchis-section {
+  padding: 2rem;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.gnocchi-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.gnocchi-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  width: 100%;
+  max-width: 250px;
+}
+
+.gnocchi-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.gnocchi-card h3 {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.gnocchi-grid {
+    grid-template-columns: 1fr; /* uma coluna no mobile */
+}

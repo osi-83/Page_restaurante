@@ -28,3 +28,8 @@
   font-size: 1rem;
   padding: 0.2rem 0;
 }
+
+.bebidas-section, .pastas-section, .gnocchis-section {
+  max-width: 100%;
+  flex: 1 1 100%;
+}

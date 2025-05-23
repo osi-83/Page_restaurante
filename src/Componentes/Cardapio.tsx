@@ -4,13 +4,14 @@ import Footer from './Footer';
 import Bebidas from './Bebidas';
 import Pastas from './Pastas';
 import './Cardapio.css';
+import Gnocchis from './Gnocchis';
 
 function Cardapio() {
     return (
         <>
             <Menu 
                 nomeEmpresa="Mamma Mia - Restaurante Italiano"
-                listaMenu={['Bebidas','Pastas','Gnocchi']}
+                listaMenu={['Bebidas','Pastas','Gnocchis']}
                 textButton='Faça seu pedido on-line, agora mesmo!'
             />
             <Hero 
@@ -21,7 +22,10 @@ function Cardapio() {
                 <Bebidas 
             />
 
-                <Pastas 
+                <Pastas                 
+            />
+
+                <Gnocchis 
             />
 
             </div>
