@@ -1,6 +1,4 @@
 import './Bebidas.css'
-
-
 function Bebidas() {
     return (
         <section className="bebidas-section" id="bebidas">
